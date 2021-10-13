@@ -131,3 +131,11 @@ console.log(message5);
 const [hername, herage] = herProfile;
 const message6 = `名前は${hername}、で年齢は${herage}歳です`;
 console.log(message6);
+
+/**
+ * デフォルト値
+ */
+
+const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん`);
+sayHello("kii");
+sayHello();
