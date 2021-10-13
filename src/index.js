@@ -209,12 +209,30 @@
 // // }
 // nameArr.map((name ,index) => console.log(`${index + 1}番目は${name}です`));
 
-const nameArr = ["kii", "eri", "kaz"];
-const newNameArr = nameArr.map((name) => {
-  if (name === "kii") {
-    return name;
-  } else {
-    return `${name}さん`;
-  }
-});
-console.log(newNameArr);
+// const nameArr = ["kii", "eri", "kaz"];
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "kii") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
+
+/**
+ * 三項演算子
+ */
+
+//ある条件　？　　条件がtrueの時　: 条件がfalseの時
+// const val1 = 1 > 0 ? "trueです" : "falseです";
+// console.log(val1);
+
+// const num = 3000;
+// const formatedNum =
+//   typeof num === "number" ? num.toLocaleString() : "数値を入力してください";
+// console.log(formatedNum);
+
+const checkSum = (num1, num2) => {
+  return num1 + num2 > 100 ? "100越え" : "許容範囲内";
+};
+console.log(checkSum(50, 40));
