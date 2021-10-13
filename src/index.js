@@ -26,3 +26,26 @@ console.log(val2);
 
 // letは再宣言不可
 //let val2 = "let変数の再宣言";
+
+//------------------------------
+
+const val3 = "const変数";
+console.log(val3);
+
+// consr変数は上書き不可
+//val3 = "constの上書き"
+
+// const変数は再宣言不可
+//const val3 = "const変数の再宣言"
+
+const val4 = {
+  name: "kii",
+  age: "27"
+};
+//console.log(val4)
+
+val4.name = "きぃ";
+//console.log(val4)
+
+val4.address = "yokohama";
+console.log(val4);
