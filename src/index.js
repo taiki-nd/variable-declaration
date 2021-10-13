@@ -60,3 +60,18 @@ console.log(val5);
 /**
  * ほとんどがconstでやる。
  */
+
+/**
+ * テンプレート文字列
+ */
+
+const name = "きぃ";
+const age = "27";
+
+//　「私の名前はきぃで２７歳です」
+const message1 = "私の名前は" + name + "です。年齢は" + age + "です";
+console.log(message1);
+
+// テンプレと文字列を用いると
+const message2 = `私の名前は${name}で、年齢は${age}歳です。`;
+console.log(message2);
