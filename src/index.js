@@ -75,3 +75,33 @@ console.log(message1);
 // テンプレと文字列を用いると
 const message2 = `私の名前は${name}で、年齢は${age}歳です。`;
 console.log(message2);
+
+//------------------------------------------------------
+
+/**
+ * アロー関数
+ */
+
+//  function func1(str) {
+//   return str;
+//  }
+//  console.log(func1("func1です"));
+
+const func1 = function (str) {
+  return str;
+};
+
+console.log(func1("func1です１"));
+
+//アロー関数の場合
+
+const func2 = (str) => {
+  return str;
+};
+console.log(func2("func2です"));
+
+const func3 = (num1, num2) => {
+  return num1 + num2;
+};
+
+console.log(func3(10, 20));
