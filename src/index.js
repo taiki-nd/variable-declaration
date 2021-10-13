@@ -105,3 +105,29 @@ const func3 = (num1, num2) => {
 };
 
 console.log(func3(10, 20));
+
+//------------------------------------
+
+/**
+ * 分割代入
+ */
+
+const myProfile = {
+  myname: "きぃ",
+  myage: "27"
+};
+
+const message3 = `名前は${myProfile.myname}で、年齢は${myProfile.myage}歳です。`;
+console.log(message3);
+
+const { myname, myage } = myProfile;
+const message4 = `名前は${myname}で、年齢は${myage}歳です。`;
+console.log(message4);
+
+const herProfile = ["eri", 34];
+const message5 = `名前は${herProfile[0]}、で年齢は${herProfile[1]}歳です`;
+console.log(message5);
+
+const [hername, herage] = herProfile;
+const message6 = `名前は${hername}、で年齢は${herage}歳です`;
+console.log(message6);
