@@ -49,3 +49,14 @@ val4.name = "きぃ";
 
 val4.address = "yokohama";
 console.log(val4);
+
+//-----------------------------
+
+const val5 = ["dog", "cat"];
+val5[0] = "bird";
+val5.push("monkey");
+console.log(val5);
+
+/**
+ * ほとんどがconstでやる。
+ */
