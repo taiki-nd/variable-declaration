@@ -1,7 +1,6 @@
 # JavaScript の基礎
 
-\* const, let 等の変数宣言
-
+- const, let 等の変数宣言
 - テンプレート文字列
 - アロー関数
 - 分割代入
