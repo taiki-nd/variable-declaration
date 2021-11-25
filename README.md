@@ -1,2 +1,12 @@
-# codesandbox-test
-Created with CodeSandbox
+# JavaScript の基礎
+
+\* const, let 等の変数宣言
+
+- テンプレート文字列
+- アロー関数
+- 分割代入
+- デフォルト値
+- スプレッド構文
+- マップ、フィルターを使った配列処理
+- 三項演算子
+- 論理演算子の本当の意味　 && ||
